@@ -70,6 +70,41 @@ public class MergeIntervals {
         return listFinal;
     }
 
+    public int[][] mergeOptimumLeetCodeWay(int[][] intervals) {
+        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+        LinkedList<int[]> list = new LinkedList<>();
+        for (int i = 0; i < intervals.length; i++) {
+            if (list.isEmpty() || list.getLast()[1] < intervals[i][0]) {
+                list.add(intervals[i]);
+            } else {
+                list.getLast()[1] = Math.max(list.getLast()[1], intervals[i][1]);
+            }
+        }
+        return list.toArray(new int[list.size()][2]);
+    }
+
+    public int[][] mergeUsingGraphs(int[][] intervals) {
+        Map<int[], List<int[]>> graph = new HashMap<>();
+        Set<int[]> set = new HashSet<>();
+        for (int i = 0; i < intervals.length; i++) {
+            List<int[]> list = new LinkedList<>();
+            for (int j = i + 1; j < intervals.length; j++) {
+                if (intervals[i][0] <= intervals[j][1] && intervals[j][0] <= intervals[i][1]) {
+                    list.add(intervals[j]);
+                }
+            }
+            graph.put(intervals[i], list);
+        }
+        for (int[] key : graph.keySet()) {
+            List<int[]> linkedNodes = graph.get(key);
+            for (int i = 0; i < linkedNodes.size(); i++) {
+
+            }
+        }
+        return intervals;
+
+    }
+
     public static void main(String[] args) {
         int[][] arrays = {{2, 3}, {4, 6}, {5, 7}, {3, 4}};
         new MergeIntervals().merge(arrays);
