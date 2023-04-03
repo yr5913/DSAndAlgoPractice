@@ -4,9 +4,6 @@
     <list default="true" id="386bfa70-57ae-4b8e-b47e-e58f5fa833cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arrays2/MergeIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrays2/MergeIntervals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/knownalgopractice/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/knownalgopractice/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/v2/myPractice/LinkedListInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/v2/myPractice/LinkedListInsertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,16 +208,6 @@
           <url>file://$PROJECT_DIR$/src/arrays3/PowN.java</url>
           <line>15</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/Exam2.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/practice/Exam2.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hw3/LongestIncreasingSubseqRecursive.java</url>
