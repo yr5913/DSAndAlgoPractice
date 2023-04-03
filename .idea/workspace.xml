@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="386bfa70-57ae-4b8e-b47e-e58f5fa833cb" name="Changes" comment="">
+    <list default="true" id="4ec57c4c-cb71-4f01-86e1-85e37b80099c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DSAndAlgoPractice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DSAndAlgoPractice.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +143,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="386bfa70-57ae-4b8e-b47e-e58f5fa833cb" name="Changes" comment="" />
+      <changelist id="4ec57c4c-cb71-4f01-86e1-85e37b80099c" name="Changes" comment="" />
       <created>1664183850093</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
