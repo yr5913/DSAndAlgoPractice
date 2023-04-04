@@ -3,3 +3,4 @@ src/practice*
 .idea
 *.iml
 *.class
+out
