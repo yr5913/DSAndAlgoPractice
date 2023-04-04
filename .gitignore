@@ -2,3 +2,4 @@ src/hw*
 src/practice*
 .idea
 *.iml
+*.class
